@@ -6,49 +6,38 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
+<body>
 <!-- HEADER, NAV -->
-<div class="container">
-    <nav class="navbar navbar-toggleable-md navbar-light ">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#"> <h1 class="header1">Hello! Pro</h1><hr class="mt-0 mb-1">
-            <p class="header2">A WordPress Personal Branding Theme</p></a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Mobile</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Page Layouts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Page Templates</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Colors and Textures</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
+<header class="main-header">
+    <div class="container ">
+        <div class="logo-text">
+            <h1 class="main-logo"><a href="index.html">Hello! Pro</a></h1>
+            <p class="logo" id="first_div">A WordPress Personal Branding Theme</p>
+        </div>
+        <div class="nav-menu">
+            <ul class="main-nav" id="second_div">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Page Layouts</a></li>
+                <li><a href="#">Page Templates</a></li>
+                <li><a href="#">Colors and Textures</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </div>
-    </nav>
-</div><!-- /HEADER,NAV -->
+    </div>
+</header><!-- /HEADER, NAV -->
 
 <!-- WELLCOME JUMBO -->
 <div class="jabout jumbotron jumbotron-fluid">
-    <div class="container">
-        <img src="img/linda3.png" class="float-right imglinda">
+    <div class="container jabout-cont">
+        <img src="img/linda.png" class="float-right">
         <h1 class="display-3 jime">IT'S ME</h1>
         <p class="jwelcome">WELCOME TO MY VIRTUAL OFFICE</p>
         <p class="jtext">Memorable, distinct and unique — that’s what YOU are, but so is everyone around you. Creating an eye-catching, attention-grabbing, personal branded site can help you make your best online first impression. And that…can make all the difference in the world (wide web). With over 250 million web and blog sites on the Internet, making a lasting impression on the web is super important. Be distinct and start building your brand online!</p>
-        <button type="button" class="btn btn-warning">BUY THE HELLO THEME</button>
+        <button type="button" class="btn btn-warning mb-4">BUY THE HELLO THEME</button>
     </div>
 </div><!-- /WELLCOME JUMBO -->
 
@@ -56,12 +45,16 @@
 <div class="container-fluid subscribe">
     <div class="container">
         <form class="form-inline">
-        <h2 class="mr-4 ">PUT YOUR OPT-IN COPY HERE!</h2>
-        <label class="sr-only" for="name">Name</label>
-        <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="name" placeholder="First Name">
+        <div class="sub-1">
+            <h2 class="mr-4 sub-text">PUT YOUR OPT-IN COPY HERE!</h2>
+        </div>
+        <div class="sub-2">
+            <label class="sr-only" for="name">Name</label>
+        <input type="text" class="form-control mb-2 mr-0 mr-sm-2 mb-sm-0 w-25" id="name" placeholder="First Name">
         <label class="sr-only" for="mail">Name</label>
-        <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="mail" placeholder="E-Mail Address">
+        <input type="text" class="form-control mb-2 mr-0 mr-sm-2 mb-sm-0 w-25" id="mail" placeholder="E-Mail Address">
         <button type="button" class="btn btn-warning">SUBSCRIBE</button>
+        </div>
         </form>
     </div>
 </div><!-- /SUBSCRIBE -->
@@ -69,15 +62,15 @@
 <!-- FEATURES -->
 <div class="container mt-5 features">
     <div class="row">
-        <div class="col-lg-4 mb-2">
+        <div class="col-md-4 mb-2">
             <h5>FEATURE #1: COLORS AND TEXTURES</h5>
-            <p class="feature1">Unique color palettes and textures are all the rage in the design world. Down the road if you want to freshen your look without breaking the bank you can easily swap the background for something new. See the options: <a href="..">Gray (default)</a>,<a href="...">Green</a>,<a href="...">Orange or Purple</a></p>
+            <p>Unique color palettes and textures are all the rage in the design world. Down the road if you want to freshen your look without breaking the bank you can easily swap the background for something new. See the options: <a href=".." class="feature1">Gray (default)</a>,<a href="#" class="feature1"> Green</a>,<a href="#" class="feature1"> Orange or Purple</a></p>
         </div>
-        <div class="col-lg-4 mb-2">
+        <div class="col-md-4 mb-2">
             <h5>FEATURE #2: ROTATING CONTENT AREA</h5>
             <p>Use the "Be Inspired" space below to share a variety of things from noteworthy client testimonials and endorsements, to upcoming venues where you will appear as a speaker to a breaking news bar where you can feature “news” of the day.</p>
         </div>
-        <div class="col-lg-4 mb-2">
+        <div class="col-md-4 mb-2">
             <h5>FEATURE #3: HOMEPAGE PORTFOLIO</h5>
             <p>Show off your work. Use the spaces in the grid below to show off your work – think gallery if you are a photographer or interior designer, portfolio if you are a graphic designer or brands you’ve worked with if you are a consultant. Remember, a picture is worth a thousand words.</p>
         </div>
@@ -89,33 +82,33 @@
 
     <h2 class="mb-5 gallery-caption">Make a bold statement. Show off your work in the portfolio area below.</h2>
     <div class="container gallery-img">
-    <div class="row">
-            <div class="col-lg-4">
+    <div class="row portfolio">
+            <div class="col-md-4 col-sm-8">
                 <div class="card mb-3">
                     <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-4 col-sm-8">
                 <div class="card mb-3">
                     <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-4 col-sm-8">
                 <div class="card mb-3">
                     <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-4 col-sm-8">
                 <div class="card mb-3">
                     <img class="card-img-top" src="img/4.jpg" alt="Card image cap">
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-4 col-sm-8">
                 <div class="card mb-3">
                     <img class="card-img-top" src="img/5.jpg" alt="Card image cap">
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-md-4 col-sm-8">
                 <div class="card mb-3">
                     <img class="card-img-top" src="img/6.jpg" alt="Card image cap">
                 </div>
@@ -131,7 +124,7 @@
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
                 <img class="d-block img-fluid" src="img/carousel2.png" alt="First slide">
-                <div class="carousel-caption">
+                <div class="carousel-caption car-cap">
                     <h3>BE INSPIRED</h3>
                     <p>“The Hello! Pro theme is awesome because it’s already designed for personality brands, yet allowed me to personalize and customize where needed.”</p>
                     <p>Vivian Ngai</p>
@@ -160,53 +153,54 @@
     </div>
 </div><!-- /CAROUSEL -->
 
-<!-- FOOTER -->
+<!-- CONTACT -->
 <div class="container-fluid footer">
     <div class="container">
     <div class="row">
         <div class="col-lg-4">
             <h6>CONTACT</h6>
-            <p>724-555-0123</p>
-            <p><a href="...">info@thebrandid.com</a>  | <a href="...">Get Directions</a></p>
+            <p class="tel">724-555-0123</p>
+            <p class="contact-a"><a href="#">info@thebrandid.com</a>|<a href="#">Get Directions</a></p>
             <button type="button" class="btn btn-warning">BUY THE HELLO THEME</button>
         </div>
 
-        <div class="col-lg-4 mb-3">
+        <div class="col-lg-4 mb-3 connect">
             <h6>CONNECT WITH US</h6>
-            <div class="social mb-3">
-                <img src="img/mail.png" class=" mw-2 rounded ">
-                <img src="img/fb.png">
-                <img src="img/gplus.png">
-                <img src="img/inst.png">
-                <img src="img/ln.png">
-                <img src="img/pin.png">
-                <img src="img/rss.png">
-                <img src="img/twit.png">
-                <img src="img/vimeo.png">
-                <img src="img/utube.png">
+            <div class="social">
+                <a href="#"><img src="img/mail.png"></a>
+                <a href="#"><img src="img/fb.png"></a>
+                <a href="#"><img src="img/gplus.png"></a>
+                <a href="#"><img src="img/inst.png"></a>
+                <a href="#"><img src="img/ln.png"></a>
+                <a href="#"><img src="img/pin.png"></a>
+                <a href="#"><img src="img/rss.png"></a>
+                <a href="#"><img src="img/twit.png"></a>
+                <a href="#"><img src="img/vimeo.png"></a>
+                <a href="#"><img src="img/utube.png"></a>
             </div>
-            <p>Add and customize up to 16 major social media icons using the "Simple Social Icons" plugin. What better way to expand your personal brand than through the “smart” use of social media?</p>
+            <p class="footer-connect">Add and customize up to 16 major social media icons using the "Simple Social Icons" plugin. What better way to expand your personal brand than through the “smart” use of social media?</p>
         </div>
 
         <div class="col-lg-4">
             <h6>LAST CHANCE OPT-IN</h6>
             <p>Give users one more chance to join your mailing list!</p>
             <form>
-                <div class="form-group">
+                <div class="form-group mb-1">
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name">
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-1">
                     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="E-Mail Address">
                 </div>
-                <button type="button" class="btn btn-warning btn-lg btn-block">SUBSCRIBE</button>
+                <button type="button" class="btn btn-warning btn-lg btn-block ">SUBSCRIBE</button>
             </form>
         </div>
     </div>
     </div>
-</div>
+</div><!-- /CONTACT -->
 
+<!-- FOOTER -->
 <div class="text-center footer-img footer-text">
-    <p>Copyright © 2017 · <a href="...">Hello Pro</a> on <a href="...">Genesis Framework</a> ·<a href="...">WordPress</a> · <a href="...">Log in</a></p>
+    <p>Copyright © 2017 · <a href="#">Hello Pro</a> on <a href="#">Genesis Framework</a> ·<a href="#">WordPress</a> · <a href="#">Log in</a></p>
 </div>
 <!-- /FOOTER -->
 

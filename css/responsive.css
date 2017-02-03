@@ -1,0 +1,195 @@
+@media screen and (max-width: 1199px) {
+    /* HEADER */
+   .main-header {
+       text-align: center;
+   }
+
+    .main-header p {
+        margin: 0;
+    }
+
+    .logo {
+        border: none;
+        margin-top: .5em;
+    }
+
+    .nav-menu {
+        float: none;
+    }
+
+    .main-nav {
+        margin: .7em 0;
+    }/* /HEADER */
+
+
+    /* JUMBOTRON */
+    .jabout {
+        padding-bottom: .6em;
+    }/* /JUMBOTRON */
+
+
+    /* SUBSCRIBE */
+    .sub-1 {
+        display: inline-block;
+        max-width: 40%;
+        text-align: center;
+    }
+    .sub-2 {
+        display: inline-block;
+        max-width: 60%;
+    }/* /SUBSCRIBE */
+
+
+        }
+
+
+
+@media screen and (max-width: 991px){
+
+    /* HEADER */
+    .main-nav {
+        padding: 0;
+        margin: 0.8em 0;
+    }
+
+    .main-nav li {
+        padding: 0 .3em;
+    }/* /HEADER */
+
+    /* JUMBOTRON */
+    .jabout {
+        padding-bottom: 1.7em;
+    }
+
+    .jabout-cont img {
+        position: absolute;
+        left: 66%;
+        top: 4.1em;
+    }/* /JUMBOTRON */
+
+
+    /* SUBSCRIBE */
+    .subscribe {
+        padding-bottom: 2.6em;
+        padding-top: 2em;
+    }
+
+    .sub-1 {
+        max-width: 100%;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
+    .sub-2 {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }/* /SUBSCRIBE */
+
+
+
+    /* FEATURES */
+    .features p {
+        max-width: 100%;
+    }/* /FEATURES */
+
+
+    /* PORTFOLIO */
+   .gallery-caption {
+       text-align: center;
+       padding: 37px 90px;
+   }
+
+   .gallery-img img {
+       max-width: 100%;
+   }    /* PORTFOLIO */
+
+
+    /* FOOTER */
+    .footer .connect {
+        margin-top: 2em;
+    }
+
+    .social {
+        margin-top: 1em;
+    }/* /FOOTER */
+
+
+}
+
+
+
+@media screen and (max-width: 767px){
+    /* HEADER */
+    /* /HEADER */
+
+    /* JUMBOTRON */
+
+    .jabout-cont {
+        max-width: 100%;
+        text-align: center;
+        padding-bottom: 24em;
+    }
+
+    .jabout-cont img {
+        position: absolute;
+        left: 21%;
+        top: 27em;
+    }
+
+    .jwelcome {
+        max-width: 100%;
+    }
+
+    .jtext {
+        max-width: 100%;
+    }
+
+    .jabout {
+        background-image: url('../img/bgrheader-xs-lg.png');
+        background-size: 100%;
+        padding-bottom: 0;
+
+    }/* /JUMBOTRON */
+
+
+
+    /* FEATURES */
+    .features p {
+        text-align: center;
+    }/* /FEATURES */
+
+
+    /* PORTFOLIO */
+    .gallery-img {
+        position: relative;
+        left: 6em;
+    }/* PORTFOLIO */
+
+
+    /* CAROUSEL */
+    .car-cap {
+        text-align: center;
+        padding: 10px 5px;
+    }/* /CAROUSEL */
+
+
+    /* FOOTER */
+    .footer {
+       padding: 6em 0;
+
+    }
+    /* /FOOTER */
+
+
+
+}
+
+
+@media screen and (max-width: 575px){
+body {
+    background-color: #e6e6e6;
+}
+
+}
