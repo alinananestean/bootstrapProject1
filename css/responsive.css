@@ -24,7 +24,9 @@
 
     /* JUMBOTRON */
     .jabout {
+        padding-top: 3.2em;
         padding-bottom: .6em;
+        margin-top: 0;
     }/* /JUMBOTRON */
 
 
@@ -33,10 +35,15 @@
         display: inline-block;
         max-width: 40%;
         text-align: center;
+        margin-right: 4em;
     }
     .sub-2 {
         display: inline-block;
         max-width: 60%;
+    }
+
+    .sub-input {
+        max-width: 9em;
     }/* /SUBSCRIBE */
 
 
@@ -61,9 +68,14 @@
         padding-bottom: 1.7em;
     }
 
+    .jabout-cont {
+        margin: 0 .8em;
+        padding: 0;
+    }
+
     .jabout-cont img {
         position: absolute;
-        left: 66%;
+        left: 59%;
         top: 4.1em;
     }/* /JUMBOTRON */
 
@@ -107,6 +119,11 @@
 
 
     /* FOOTER */
+
+    .footer {
+        padding: 4em 7em;
+    }
+
     .footer .connect {
         margin-top: 2em;
     }
@@ -122,35 +139,36 @@
 
 @media screen and (max-width: 767px){
     /* HEADER */
+    body {
+        padding-top: 164px;
+    }
     /* /HEADER */
 
     /* JUMBOTRON */
 
     .jabout-cont {
-        max-width: 100%;
         text-align: center;
-        padding-bottom: 24em;
+        padding: 0 .9em 24em;
+        margin: auto;
+        width: 560px;
     }
 
     .jabout-cont img {
         position: absolute;
-        left: 21%;
-        top: 27em;
+        left: 25%;
+        top: 25em;
     }
 
-    .jwelcome {
+    .jime, .jwelcome,.jtext  {
+        display: block;
         max-width: 100%;
-    }
-
-    .jtext {
-        max-width: 100%;
+        text-align: center;
     }
 
     .jabout {
         background-image: url('../img/bgrheader-xs-lg.png');
         background-size: 100%;
         padding-bottom: 0;
-
     }/* /JUMBOTRON */
 
 
@@ -162,10 +180,7 @@
 
 
     /* PORTFOLIO */
-    .gallery-img {
-        position: relative;
-        left: 6em;
-    }/* PORTFOLIO */
+   /* PORTFOLIO */
 
 
     /* CAROUSEL */
@@ -177,7 +192,7 @@
 
     /* FOOTER */
     .footer {
-       padding: 6em 0;
+       padding: 5em 3em;
 
     }
     /* /FOOTER */
@@ -187,9 +202,76 @@
 }
 
 
-@media screen and (max-width: 575px){
-body {
-    background-color: #e6e6e6;
-}
+@media screen and (max-width: 575px)
+
+    /* JUMBOTRON */
+    .jabout-cont {
+        text-align: center;
+        padding: 0 .9em 26em;
+        margin: auto;
+        max-width: 90%;
+    }
+
+    .jabout-cont img {
+        left: 10%;
+        top: 34em;
+    }
+
+    .jabout {
+        background-image: url('../img/bgrheader-xs-lg.png');
+        background-size: cover;
+        padding-bottom: 0;
+    }    /* JUMBOTRON */
+
+
+    /* SUBSCRIBE */
+    .sub-text {
+        margin-bottom: .5em;
+        text-align: center;
+        width: 100%;
+    }
+    .sub-2 .sub-input {
+        margin-bottom: .4em;
+        width: 190px;
+        max-width: 13em;
+    }
+
+    .sub-2 {
+        margin: auto;
+    }
+
+    .sub-2 .sub-btn {
+        width: 190px;
+        padding: .5em 28%;
+    }    /* /SUBSCRIBE */
+
+
+
+    /* PORTFOLIO */
+    .gallery-img img {
+        margin: .2em .2em;
+
+    }
+
+    /* CAROUSEL */
+    .car-cap h3{
+        font-size: 1em;
+    }
+
+    .car-cap p {
+        font-size: .9em;
+        margin: 2px 0 .1em;
+        text-align: center;
+    }
+
+    .car-cont {
+        max-width: 45em;
+        margin: auto;
+        padding: 0;
+    }
+
+    /* /CAROUSEL */
+
+
 
 }
