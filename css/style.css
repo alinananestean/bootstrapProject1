@@ -30,11 +30,11 @@ body {
     display: inline;
 }
 .main-logo a:link {
-    color: #cfd9ec;
+    color: #8292b3;
     text-decoration: none;
 }
 .main-logo a:visited {
-    color: #cfd9ec;
+    color: #8292b3;
 }
 .main-logo a:hover {
     color: 	#cfd9ec;
@@ -42,7 +42,7 @@ body {
 
 .logo {
     display: inline;
-    color: #cfd9ec;
+    color: #8292b3;
     font-weight: 400;
     border-top: solid #cfd9ec 1px;
 }
@@ -70,12 +70,12 @@ body {
     color: #1d1e1f;
 }
 .main-nav li a:hover {
-    color: 	#cfd9ec;
+    color: 	#8292b3;
     text-decoration: none;
 }
 
 .active, .active:visited {
-    color: 	#cfd9ec;
+    color: 	#8292b3;
 }
 
 #nav-icon {
@@ -197,7 +197,7 @@ body {
 }
 
 .jabout {
-    background-color: #cfd9ec;
+    background-color: #8292b3;
     margin-bottom: 0;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -289,7 +289,7 @@ body {
 /* FOOTER */
 .footer {
     padding: 3em;
-    background-color: #cfd9ec;
+    background-color: #8292b3;
     color:  white;
     font-weight: bolder;
     text-align: center;
