@@ -142,6 +142,17 @@
     body {
         padding-top: 164px;
     }
+
+    .nav-menu {
+        display: block;
+    }
+
+    .main-nav {
+        float: none;
+    }
+    .main-nav li{
+        display: block;
+    }
     /* /HEADER */
 
     /* JUMBOTRON */
@@ -202,9 +213,10 @@
 }
 
 
-@media screen and (max-width: 575px)
+@media screen and (max-width: 575px){
 
     /* JUMBOTRON */
+
     .jabout-cont {
         text-align: center;
         padding: 0 .9em 26em;
